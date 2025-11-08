@@ -1,0 +1,69 @@
+# =========================
+# Windows / Sistema
+# =========================
+# Pastas de usuário e temporárias
+AppData/
+Downloads/
+Documents/
+Music/
+Videos/
+Pictures/
+Desktop/
+Saved Games/
+Contacts/
+Links/
+Searches/
+
+# Arquivos do sistema
+Thumbs.db
+.DS_Store
+*.ini
+*.log
+*.tmp
+*.bak
+*.swp
+
+# =========================
+# Editores / IDEs
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# Linguagens / Ambientes
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Node.js / JavaScript
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.terraform.lock.hcl
+*.tfvars
+crash.log
+override.tf
+*_override.tf
+
+# Outros
+*.pem
+*.key
+.aws/
+.ssh/
+*.db
+
+
